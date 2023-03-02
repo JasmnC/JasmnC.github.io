@@ -16,8 +16,8 @@ body {
   line-height: 1.8;
   font-size: 16px;
   font-weight: 400;
-  background: #fafafa;
-  color: gray; }
+  background: #bbb1ab;
+  color: #5e5b51; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -34,13 +34,13 @@ body {
     overflow-y: hidden; }
 
 a {
-  color: #CA82F8;
+  color: #839992;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover {
     text-decoration: underline;
-    color: #CA82F8; }
+    color: #839992; }
   a:focus, a:active {
     outline: none; }
 
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 4em 40px 40px 40px;
   width: 360px;
   height: 100%;
-  background: white;
+  background: #bbb1ab;
   z-index: 1002;
   text-align: center;
   visibility: hidden;
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
         content: '';
         width: 20px;
         height: 1px;
-        background: #fff;
+        background: #bbb1ab;
         position: absolute;
         left: 0; }
   .menu-show #colorlib-main-nav {
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
           outline: none;
           text-decoration: none; }
       #colorlib-main-nav ul li.active a {
-        color: #CA82F8; }
+        color: #839992; }
   #colorlib-main-nav .form-group {
     margin-bottom: 40px;
     position: relative;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0;
-    background: #CA82F8;
+    background: #839992;
     color: #fff;
     border: none;
     padding: 16px; }
@@ -308,14 +308,14 @@ header {
     header .colorlib-navbar-brand .colorlib-logo {
       font-size: 20px;
       text-transform: uppercase;
-      color: #000;
+      color: #59322c;
       font-weight: 400;
       letter-spacing: 5px;
       padding: 7px;
-      border: 1px solid #000;
+      border: 1px solid #59322c;
       display: block;
       text-align: center;
-      background: #000; }
+      background: #59322c; }
       header .colorlib-navbar-brand .colorlib-logo span {
         display: block;
         margin-bottom: 0;
@@ -374,7 +374,7 @@ header {
       top: 8px;
       right: -40px;
       content: '';
-      background: #000;
+      background: #59322c;
       width: 40px;
       height: 1px; }
 
@@ -385,7 +385,7 @@ header {
     .about-desc h2 span {
       display: block;
       margin-bottom: 0;
-      color: #000;
+      color: #59322c;
       font-size: 50px;
       font-family: "Playfair Display", Georgia, serif; }
   .about-desc .desc {
@@ -414,7 +414,7 @@ header {
         top: 8px;
         right: -40px;
         content: '';
-        background: #000;
+        background: #59322c;
         width: 40px;
         height: 1px; }
 
@@ -424,7 +424,7 @@ header {
   left: 0;
   right: 0;
   font-size: 250px;
-  color: #f0f0f0;
+  color: #c1b8b3;
   font-weight: 700; }
   @media screen and (max-width: 768px) {
     .bold {
@@ -437,7 +437,7 @@ header {
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 1.5em;
-    color: #000;
+    color: #59322c;
     position: relative; }
   .intro-heading span {
     display: block;
@@ -498,7 +498,7 @@ header {
   border-style: solid;
   position: absolute;
   top: 0;
-  border: 1px solid #000; }
+  border: 1px solid #59322c; }
 
 .progress .progress-left .progress-bar {
   left: 100%;
@@ -691,6 +691,7 @@ header {
   .services h3 {
     font-family: "Karla", Arial, sans-serif;
     font-size: 16px;
+    color: #633831;
     text-transform: uppercase;
     font-weight: 700; }
   .services ul li {
@@ -698,7 +699,7 @@ header {
     margin-bottom: 10px; }
     .services ul li::before {
       content: '\2022';
-      color: #000;
+      color: #59322c;
       display: inline-block;
       width: 1em;
       margin-left: -1em; }
@@ -766,7 +767,7 @@ header {
   .work-entry .desc .read {
     text-align: right; }
     .work-entry .desc .read a {
-      color: #000;
+      color: #59322c;
       text-transform: uppercase;
       letter-spacing: 4px;
       font-size: 12px;
@@ -779,7 +780,7 @@ header {
         content: '';
         width: 40px;
         height: 1px;
-        background: #000; }
+        background: #59322c; }
 
 #colorlib-blog .owl-carousel {
   z-index: 0; }
@@ -805,12 +806,12 @@ header {
   -ms-border-radius: 1px;
   border-radius: 1px;
   background: transparent;
-  background: #fff;
+  background: transparent;
   padding: 5px 5px;
   opacity: 1; }
   #colorlib-blog .owl-theme .owl-controls .owl-nav [class*=owl-] .owl-direction {
-    background: transparent;
-    color: #000;
+    background: #c1b8b3;
+    color: #59322c;
     -webkit-box-shadow: none;
     box-shadow: none;
     border: none; }
@@ -860,7 +861,7 @@ header {
         display: table-cell;
         vertical-align: middle;
         font-family: "Karla", Arial, sans-serif;
-        color: #fff;
+        color: #633831;
         font-size: 12px;
         text-transform: uppercase;
         letter-spacing: 5px;
@@ -878,7 +879,7 @@ header {
           top: 10px;
           left: -50px;
           content: '';
-          background: #fff;
+          background: #633831;
           width: 40px;
           height: 1px; }
     .article .blog-img:hover .overlay {
@@ -899,7 +900,7 @@ header {
       top: -80px;
       left: 20px;
       background: #FFE9E3;
-      color: #000;
+      color: #59322c;
       padding: 20px 10px;
       font-size: 12px;
       text-transform: uppercase;
@@ -916,14 +917,14 @@ header {
       font-size: 24px; }
       .article .desc h2 a {
         text-decoration: none;
-        color: #000; }
+        color: #59322c; }
   .article:hover .meta {
     background: #fff; }
 
 #colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
 #colorlib-testimony .owl-theme .owl-dots .owl-dot:hover span {
   height: 3px;
-  background: #000; }
+  background: #59322c; }
 
 #colorlib-testimony .owl-theme .owl-dots .owl-dot span {
   width: 30px;
@@ -938,11 +939,11 @@ header {
   border: none; }
   .testimony blockquote p {
     font-family: "Playfair Display", Georgia, serif;
-    color: #000;
+    color: #59322c;
     font-size: 30px; }
   .testimony blockquote span {
     font-family: "Playfair Display", Georgia, serif;
-    color: #000;
+    color: #59322c;
     font-size: 30px; }
 
 .f-entry {
@@ -956,7 +957,7 @@ header {
       color: #4d4d4d;
       text-decoration: none; }
   .f-entry .desc span {
-    color: #000;
+    color: #59322c;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -988,18 +989,18 @@ header {
     outline: none !important; }
 
 .btn-primary {
-  background: #CA82F8;
+  background: #839992;
   color: #fff;
-  border: 2px solid #CA82F8; }
+  border: 2px solid #839992; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #d49af9 !important;
-    border-color: #d49af9 !important; }
+    background: #839992 !important;
+    border-color: #839992 !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #4d4d4d;
     border: 1px solid #d9d9d9; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #CA82F8;
+      background: #839992;
       color: #fff; }
 
 .btn-success {
@@ -1108,9 +1109,9 @@ header {
   cursor: pointer;
   text-decoration: none; }
   .colorlib-nav-toggle.active i::before, .colorlib-nav-toggle.active i::after {
-    background: #000; }
+    background: #59322c; }
   .colorlib-nav-toggle.dark.active i::before, .colorlib-nav-toggle.dark.active i::after {
-    background: #000; }
+    background: #59322c; }
   .colorlib-nav-toggle:hover, .colorlib-nav-toggle:focus, .colorlib-nav-toggle:active {
     outline: none;
     border-bottom: none !important; }
@@ -1122,22 +1123,22 @@ header {
     *display: inline;
     width: 20px;
     height: 2px;
-    color: #000;
+    color: #59322c;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #000;
+    background: #59322c;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .menu-show .colorlib-nav-toggle i {
-      background: #000;
+      background: #59322c;
       color: #fff; }
     .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
       content: '';
       width: 20px;
       height: 2px;
-      background: #000;
+      background: #59322c;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
@@ -1229,7 +1230,7 @@ header {
       font-size: 16px;
       color: rgba(0, 0, 0, 0.5); }
     .contact-info li a {
-      color: #CA82F8; }
+      color: #839992; }
 
 .form-control {
   -webkit-box-shadow: none;
@@ -1261,10 +1262,11 @@ input[type="text"] {
 
 .colorlib-social-icons i {
   font-size: 24px;
-  color: #CA82F8; }
+  color: #839992; }
 
 #footer {
   padding: 8em 0;
+  text-align:center;
   display: block;
   width: 100%; }
   #footer h2 {
@@ -1278,7 +1280,7 @@ input[type="text"] {
     text-decoration: none !important; }
   #footer p.colorlib-social-icons i {
     font-size: 24px;
-    color: #CA82F8; }
+    color: #839992; }
   #footer p .block {
     color: #1a1a1a;
     font-size: 14px; }
