@@ -899,7 +899,7 @@ header {
       position: absolute;
       top: -80px;
       left: 20px;
-      background: #FFE9E3;
+      background: #b4c1bd;
       color: #59322c;
       padding: 20px 10px;
       font-size: 12px;
@@ -919,7 +919,7 @@ header {
         text-decoration: none;
         color: #59322c; }
   .article:hover .meta {
-    background: #fff; }
+    background: #d9d4d1; }
 
 #colorlib-testimony .owl-theme .owl-dots .owl-dot.active span,
 #colorlib-testimony .owl-theme .owl-dots .owl-dot:hover span {
